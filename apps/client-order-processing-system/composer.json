@@ -1,0 +1,24 @@
+{
+  "name": "marguzych23/client-order-processing-system",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Marguzych",
+      "email": "zaynullin.emil@gmail.com"
+    }
+  ],
+  "require": {
+    "vladimir163/lead-generator": "dev-master",
+    "psr/log": "*"
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Marguzych23\\ClientOrderProcessingSystem\\": "src"
+    }
+  }
+}
